@@ -1,9 +1,3 @@
-const A = [0,43,1,57,61,581,4];
-
-console.log(A.sort());
-const BD = A.sort((a,b) => {return a-b;});
-console.log(BD);
-
 const B = [100000000000000000000,100,100,101,100000000000000000000];
 
 let max = -Infinity;
